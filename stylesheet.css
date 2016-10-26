@@ -1,0 +1,55 @@
+* {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+
+.left-button {
+  position: relative;
+  bottom: 70px;
+}
+
+.right-button {
+  position: relative;
+  bottom: 70px;
+}
+
+.group1 {
+  display: inline-block;
+}
+
+.group2 {
+  display: none;
+}
+
+.group3 {
+  display: none;
+}
+
+.group1 div {
+  border: 1px solid black;
+  width: 100px;
+  height: 200px;
+  display: inline-block;
+  background-color: cornflowerblue;
+}
+
+.group2 div {
+  border: 1px solid black;
+  width: 100px;
+  height: 200px;
+  display: inline-block;
+  background-color: orangered;
+}
+
+.group3 div {
+  border: 1px solid black;
+  width: 100px;
+  height: 200px;
+  display: inline-block;
+  background-color: mediumspringgreen;
+}
