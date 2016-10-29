@@ -6,18 +6,17 @@
 
 .carousel {
   text-align: center;
+  position: relative;
 }
 
 .left-button {
-  position: absolute;
-  top: 70px;
-  left: 0;
+  position: relative;
+  bottom: 70px;
 }
 
 .right-button {
-  position: absolute;
-  top: 70px;
-  right: 0;
+  position: relative;
+  bottom: 70px;
 }
 
 .carousel-slides {
